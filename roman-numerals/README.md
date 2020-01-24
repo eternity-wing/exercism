@@ -65,7 +65,9 @@ See also: http://www.novaroma.org/via_romana/numbers.html
 ## running the tests second method
 
 1. Go to the root directory of project snap/.../roman-numerals/ and execute the test.
+
         % ./vendor/bin/phpunit --bootstrap vendor/autoload.php roman-numerals_test.php
+        
 
 ## Source
 
