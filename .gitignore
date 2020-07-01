@@ -1,4 +1,4 @@
-/roman-numerals/vendor/
-/roman-numerals/.exercism
 .phpunit.result.cache
 phpunit.phar
+**/.idea/
+**/.exercism/

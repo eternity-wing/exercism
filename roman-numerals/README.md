@@ -43,7 +43,7 @@ In Roman numerals 1990 is MCMXC:
 See also: http://www.novaroma.org/via_romana/numbers.html
 
 
-## Running the tests first method
+## Running the tests
 
 1. Go to the root of your PHP exercise directory, which is `<EXERCISM_WORKSPACE>/php`.
    To find the Exercism workspace run
@@ -61,13 +61,6 @@ See also: http://www.novaroma.org/via_romana/numbers.html
 
 [PHPUnit]: http://phpunit.de
 
-
-## running the tests second method
-
-1. Go to the root directory of project snap/.../roman-numerals/ and execute the test.
-
-        % ./vendor/bin/phpunit --bootstrap vendor/autoload.php roman-numerals_test.php
-        
 
 ## Source
 
