@@ -2,15 +2,16 @@
 
 echo isIsogram('Heizölrückstoßabdämpfung');
 
-function isIsogram(string $str): bool {
+function isIsogram(string $str): bool
+{
     $str = sanitize($str);
     $characterMap = [];
 
     $isIsogram = true;
-    for($i = 0, $iMax = strlen($str); $i < $iMax; $i++){
+    for ($i = 0, $iMax = strlen($str); $i < $iMax; $i++) {
         $character = ord($str[$i]);
 
-        if(isset($characterMap[$character])){
+        if (isset($characterMap[$character])) {
             $isIsogram = false;
             break;
         }
@@ -20,7 +21,8 @@ function isIsogram(string $str): bool {
 }
 
 
-function sanitize(string $str): string {
+function sanitize(string $str): string
+{
     $str =  str_replace([' ', '-'], '', $str);
     return utf8_decode(strtolower($str));
 }

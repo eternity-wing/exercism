@@ -2,3 +2,7 @@
 phpunit.phar
 **/.idea/
 **/.exercism/
+.gitignore
+bst/BinarySearchTree.php
+bst/Node.php
+bst/index.php

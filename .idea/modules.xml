@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Projects/data structrue/bst/.idea/bst.iml" filepath="$USER_HOME$/Projects/data structrue/bst/.idea/bst.iml" />
+      <module fileurl="file://$USER_HOME$/Projects/data structrue/.idea/data structrue.iml" filepath="$USER_HOME$/Projects/data structrue/.idea/data structrue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/php.iml" filepath="$PROJECT_DIR$/.idea/php.iml" />
     </modules>
   </component>
